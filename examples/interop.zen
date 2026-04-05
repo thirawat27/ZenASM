@@ -1,0 +1,9 @@
+extern fn external_add(a, b)
+
+fn main():
+    let base = external_add(20, 22)
+    asm:
+        "nop"
+        "nop"
+    print(base)
+    return base

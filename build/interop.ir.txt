@@ -1,0 +1,14 @@
+extern fn external_add(i64, i64) -> i64
+
+fn main() -> i64
+  block0 (main.entry.0)
+    %0 = load_imm 20
+    %1 = load_imm 22
+    %2 = call external_add(%0, %1)
+    store_local $0, %2
+    inline_asm[2 line(s)]
+    %3 = load_local $0
+    print %3
+    %5 = load_local $0
+    return %5
+

@@ -1,0 +1,50 @@
+Function(banner) -> str
+  Return
+    String("ZenAsm package ready")
+Function(sum_window) -> i64
+  Param(start: i64)
+  Param(finish: i64)
+  Let(total)
+    Integer(0)
+  For(i)
+    Identifier(start)
+    Identifier(finish)
+    Integer(1)
+    If
+      Binary(==)
+        Identifier(i)
+        Integer(3)
+      Then
+        Continue
+    Assign(total)
+      Binary(+)
+        Identifier(total)
+        Identifier(i)
+  Return
+    Identifier(total)
+Function(main) -> i64
+  Let(total)
+    Call(sum_window)
+      Integer(1)
+      Integer(7)
+  For(j)
+    Integer(10)
+    Integer(4)
+    Unary(-)
+      Integer(2)
+    Assign(total)
+      Binary(+)
+        Identifier(total)
+        Integer(1)
+  InlineAsm
+    Operands
+      Identifier(total)
+    "add {0}, 5"
+  ExprStmt
+    Call(print)
+      Call(banner)
+  ExprStmt
+    Call(print)
+      Identifier(total)
+  Return
+    Identifier(total)

@@ -1,0 +1,18 @@
+fn sum8(a, b, c, d, e, f, g, h):
+    return a + b + c + d + e + f + g + h
+
+fn main():
+    let total = 0
+    let i = 0
+
+    while i < 10:
+        i = i + 1
+        if i == 2:
+            continue
+        elif i == 9:
+            break
+        total = total + i
+
+    let combined = sum8(total, 1, 2, 3, 4, 5, 6, 7)
+    print(combined)
+    return combined

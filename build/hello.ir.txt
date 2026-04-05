@@ -1,0 +1,13 @@
+fn main() -> i64
+  block0 (main.entry.0)
+    %12 = load_imm 40
+    store_local $0, %12
+    jump block1
+  block1 (main.if.then.1)
+    %16 = load_local $0
+    print %16
+    jump block2
+  block2 (main.if.end.3)
+    %20 = load_local $0
+    return %20
+

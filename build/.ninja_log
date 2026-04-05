@@ -1,0 +1,18 @@
+# ninja log v6
+31	320	7970775916311757	build.ninja	6e0afaf5e3fb31be
+38	2079	7970774470486233	CMakeFiles/zenasm.dir/src/main.cpp.obj	fcb79d87fa06e48d
+78	2394	7970773189090331	CMakeFiles/zenasm_lib.dir/src/optimizer.cpp.obj	fb58a59e01afbdeb
+43	1397	7970773188739231	CMakeFiles/zenasm_lib.dir/src/lexer.cpp.obj	bad0ddf1ad005e44
+57	1733	7970773188874632	CMakeFiles/zenasm_lib.dir/src/semantic.cpp.obj	d05d80928d3e213e
+63	1457	7970773188939821	CMakeFiles/zenasm_lib.dir/src/ir.cpp.obj	f2cba114feafd590
+32	2511	7970756107908674	CMakeFiles/zenasm_lib.dir/src/diagnostics.cpp.obj	4f19e90dd6cf3083
+31	320	7970775916261769	D:/zenasm/build/cmake_install.cmake	6e0afaf5e3fb31be
+27	2550	7970756107858506	CMakeFiles/zenasm_lib.dir/src/source.cpp.obj	a776b0c6713c9761
+71	2300	7970773189020194	CMakeFiles/zenasm_lib.dir/src/lowering.cpp.obj	4804b017253af957
+106	1984	7970773189355913	CMakeFiles/zenasm_lib.dir/src/compiler.cpp.obj	6d2a7429ee99ae7
+85	2194	7970773189160495	CMakeFiles/zenasm_lib.dir/src/regalloc.cpp.obj	d9a685b94f152af3
+50	1664	7970773188809575	CMakeFiles/zenasm_lib.dir/src/parser.cpp.obj	be9f17aab2e18b08
+93	2125	7970773189245629	CMakeFiles/zenasm_lib.dir/src/emitter.cpp.obj	f823ed8516e94955
+2394	2570	7970773212250584	zenasm_lib.lib	7cc0d17377d1594
+2080	2376	7970774490902798	zenasm.exe	82c11cff38b79a82
+31	320	7970775916271742	D:/zenasm/build/CTestTestfile.cmake	6e0afaf5e3fb31be

@@ -1,0 +1,22 @@
+fn banner() -> str:
+    return "ZenAsm package ready"
+
+fn sum_window(start: i64, finish: i64) -> i64:
+    let total = 0
+    for i in range(start, finish):
+        if i == 3:
+            continue
+        total = total + i
+    return total
+
+fn main() -> i64:
+    let total = sum_window(1, 7)
+    for j in range(10, 4, -2):
+        total = total + 1
+
+    asm(total):
+        "add {0}, 5"
+
+    print(banner())
+    print(total)
+    return total

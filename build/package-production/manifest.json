@@ -1,0 +1,14 @@
+{
+  "input": "D:\\zenasm\\examples\\production.zen",
+  "target": "win64",
+  "optimization": 3,
+  "toolchain": "C:/Program Files/LLVM/bin/clang++.exe",
+  "artifacts": {
+    "asm": "D:\\zenasm\\build\\package-production\\production.asm",
+    "obj": "D:\\zenasm\\build\\package-production\\production.obj",
+    "exe": "D:\\zenasm\\build\\package-production\\production.exe",
+    "ir": "D:\\zenasm\\build\\package-production\\production.ir.txt",
+    "ast": "D:\\zenasm\\build\\package-production\\production.ast.txt",
+    "source": "D:\\zenasm\\build\\package-production\\production.zen"
+  }
+}

@@ -1,0 +1,23 @@
+Function(main)
+  Let(total)
+    Integer(0)
+  Repeat
+    Integer(4)
+    Assign(total)
+      Binary(+)
+        Identifier(total)
+        Integer(10)
+  If
+    Binary(>)
+      Identifier(total)
+      Integer(20)
+    Then
+      ExprStmt
+        Call(print)
+          Identifier(total)
+    Else
+      ExprStmt
+        Call(print)
+          Integer(0)
+  Return
+    Identifier(total)

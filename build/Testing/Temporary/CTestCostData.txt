@@ -1,0 +1,8 @@
+smoke_build_hello 5 0.00301198
+verify_hello_output 5 0.00457836
+assemble_and_run_hello 4 0.0460136
+run_advanced_program 2 0.0890129
+build_sysv_object 2 0.0268946
+run_production_program 1 0.193992
+package_production_program 1 0.183889
+---
